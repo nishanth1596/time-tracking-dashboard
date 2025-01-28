@@ -26,7 +26,7 @@ const TimeCard = ({ card, currentReport }: CardProps) => {
 
   return (
     <div
-      className="relative -z-10 overflow-hidden rounded-2xl pt-[2.375rem]"
+      className="pt-[2.375rem ] relative -z-10 overflow-hidden rounded-2xl lg:pt-[45px]"
       style={{ backgroundColor: card.color }}
     >
       <img

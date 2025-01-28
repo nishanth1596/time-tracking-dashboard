@@ -25,7 +25,7 @@ type CurrentReportProps = {
 
 const TimeCards = ({ currentReport }: CurrentReportProps) => {
   return (
-    <article className="mx-6 mt-6 grid grid-cols-1 gap-y-6 sm:grid sm:grid-cols-2 sm:gap-2.5 lg:col-span-3 lg:mt-0 lg:grid-cols-3 lg:grid-rows-2">
+    <article className="mx-6 mt-6 grid grid-cols-1 gap-y-6 sm:grid sm:grid-cols-2 sm:gap-2.5 lg:col-span-3 lg:mx-[30px] lg:mt-0 lg:grid-cols-3 lg:grid-rows-2 lg:gap-[30px]">
       {data.map((card: CardProps) => {
         return (
           <TimeCard
